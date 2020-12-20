@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsApp.Primes", "FormsApp.Primes\FormsApp.Primes.csproj", "{F03EBD09-CE1B-4F35-8F24-B7253E4EBE09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsApp.PascalCase", "FormsApp.PascalCase\FormsApp.PascalCase.csproj", "{7C32836A-5C27-4F92-A44A-6F0F41260BDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F03EBD09-CE1B-4F35-8F24-B7253E4EBE09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03EBD09-CE1B-4F35-8F24-B7253E4EBE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03EBD09-CE1B-4F35-8F24-B7253E4EBE09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03EBD09-CE1B-4F35-8F24-B7253E4EBE09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C32836A-5C27-4F92-A44A-6F0F41260BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C32836A-5C27-4F92-A44A-6F0F41260BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C32836A-5C27-4F92-A44A-6F0F41260BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C32836A-5C27-4F92-A44A-6F0F41260BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
