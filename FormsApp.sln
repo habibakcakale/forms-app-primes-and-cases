@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsApp.Primes", "FormsApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsApp.PascalCase", "FormsApp.PascalCase\FormsApp.PascalCase.csproj", "{7C32836A-5C27-4F92-A44A-6F0F41260BDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsApp.Test", "FormsApp.Test\FormsApp.Test.csproj", "{2987CD93-E8DC-44E8-979D-0022E8F5450B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{7C32836A-5C27-4F92-A44A-6F0F41260BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C32836A-5C27-4F92-A44A-6F0F41260BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C32836A-5C27-4F92-A44A-6F0F41260BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2987CD93-E8DC-44E8-979D-0022E8F5450B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2987CD93-E8DC-44E8-979D-0022E8F5450B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2987CD93-E8DC-44E8-979D-0022E8F5450B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2987CD93-E8DC-44E8-979D-0022E8F5450B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

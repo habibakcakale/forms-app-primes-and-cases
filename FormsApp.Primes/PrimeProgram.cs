@@ -4,19 +4,21 @@
     using System.Collections.Generic;
     using System.Linq;
 
-    public class Program
+    public class PrimeProgram
     {
-        public static void Main(string[] args)
+        public static void Main(string[] args) => new PrimeProgram().Run();
+
+        private void Run()
         {
             var number = GetMaxPrimeNumber();
-            if (number <= 1) return;
+            //if (number <= 1) return;
 
             var primes = GetPrimeNumbers(2, number);
             var total = primes.Aggregate(1d, (current, next) => current * next);
             Console.WriteLine(total);
         }
 
-        private static int GetMaxPrimeNumber()
+        private int GetMaxPrimeNumber()
         {
             string userInput;
             int number;
@@ -35,9 +37,10 @@
         /// <param name="start">Starting Point</param>
         /// <param name="end">Maximum range</param>
         /// <returns></returns>
-        private static IEnumerable<int> GetPrimeNumbers(int start, int end)
+        public IEnumerable<int> GetPrimeNumbers(int start, int end)
         {
-            yield return 1;
+            if (start <= 1) // by definition prime number cannot be negative 
+                start = 2;
             for (var currentNumber = start; currentNumber <= end; currentNumber++)
             {
                 var dividerCount = 0;
